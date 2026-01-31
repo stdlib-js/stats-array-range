@@ -50,7 +50,7 @@ The [**range**][range] is defined as the difference between the maximum and mini
 ## Usage
 
 ```javascript
-import range from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-array-range@deno/mod.js';
+import range from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-array-range@v0.1.0-deno/mod.js';
 ```
 
 #### range( x )
@@ -91,7 +91,7 @@ The function has the following parameters:
 
 ```javascript
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@deno/mod.js';
-import range from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-array-range@deno/mod.js';
+import range from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-array-range@v0.1.0-deno/mod.js';
 
 var x = discreteUniform( 10, -50, 50, {
     'dtype': 'float64'
