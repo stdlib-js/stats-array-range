@@ -50,7 +50,7 @@ The [**range**][range] is defined as the difference between the maximum and mini
 ## Usage
 
 ```javascript
-import range from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-array-range@esm/index.mjs';
+import range from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-array-range@v0.1.1-esm/index.mjs';
 ```
 
 #### range( x )
@@ -96,7 +96,7 @@ The function has the following parameters:
 <script type="module">
 
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@esm/index.mjs';
-import range from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-array-range@esm/index.mjs';
+import range from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-array-range@v0.1.1-esm/index.mjs';
 
 var x = discreteUniform( 10, -50, 50, {
     'dtype': 'float64'
